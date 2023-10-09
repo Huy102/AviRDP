@@ -24,7 +24,7 @@ jobs:
     - name: cài ngrok.
       run: Expand-Archive ngrok.zip
     - name: Connect Ke Akun Ngrok.
-      run: .\ngrok\ngrok.exe authtoken 23KFjHPwVVRJonzUiTmFnpMRIkh_4i99zKDQQYatsMkkR9dko
+      run: .\ngrok\ngrok.exe authtoken 1uJBkAeCSGMPr3vhXrXz5fuf7zP_87xuGxndyXLNfpNjtFZ7V
     - name: Khởi động máy ảo.
       run: | 
         Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
