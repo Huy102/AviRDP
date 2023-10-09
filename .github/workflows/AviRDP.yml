@@ -12,7 +12,7 @@ jobs:
     - name: Tải xuống ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/hungwt/AviRDP/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/huy102/AviRDP/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/hungwt/AviRDP/main/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/hungwt/AviRDP/main/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://raw.githubusercontent.com/hungwt/AviRDP/main/loop.bat -OutFile loop.bat
